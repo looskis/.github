@@ -12,13 +12,14 @@ inspectable, so capable AI can run on the Macs people already own.
 
 ## Tools
 
-| Project                                         | Area         | What it does                                                                 | Install                                                  |
-| ----------------------------------------------- | ------------ | ---------------------------------------------------------------------------- | -------------------------------------------------------- |
-| [blueski](https://github.com/looskis/blueski)   | iMessage     | Send and receive Messages through a loopback API and CLI. AppleScript only.  | `brew install looskis/tap/blueski`                       |
-| [taski](https://github.com/looskis/taski)       | Reminders    | Turn a private iCloud Reminders list into a durable task inbox for agents.   | `brew install looskis/tap/taski`                         |
-| [gridski](https://github.com/looskis/gridski)   | Excel        | MCP server for reading and editing the workbooks open in Excel for Mac.      | `cargo install --git https://github.com/looskis/gridski` |
-| [moolaski](https://github.com/looskis/moolaski) | Agent skills | Financial modeling skills for AI agents, built in Excel.                     | `npx skills add looskis/moolaski`                        |
-| [greenski](https://github.com/looskis/greenski) | WhatsApp     | Linked-device WhatsApp daemon with blueski's API shape. Unofficial protocol. | `brew install looskis/tap/greenski`                      |
+| Project                                           | Area         | What it does                                                                     | Install                                                                  |
+| ------------------------------------------------- | ------------ | -------------------------------------------------------------------------------- | ------------------------------------------------------------------------ |
+| [scribeski](https://github.com/looskis/scribeski) | Social work  | Transcribes sessions and drafts visit notes on the Mac, then fills the EHR form. | [Download for Mac](https://github.com/looskis/scribeski/releases/latest) |
+| [blueski](https://github.com/looskis/blueski)     | iMessage     | Send and receive Messages through a loopback API and CLI. AppleScript only.      | `brew install looskis/tap/blueski`                                       |
+| [taski](https://github.com/looskis/taski)         | Reminders    | Turn a private iCloud Reminders list into a durable task inbox for agents.       | `brew install looskis/tap/taski`                                         |
+| [gridski](https://github.com/looskis/gridski)     | Excel        | MCP server for reading and editing the workbooks open in Excel for Mac.          | `cargo install --git https://github.com/looskis/gridski`                 |
+| [moolaski](https://github.com/looskis/moolaski)   | Agent skills | Financial modeling skills for AI agents, built in Excel.                         | `npx skills add looskis/moolaski`                                        |
+| [greenski](https://github.com/looskis/greenski)   | WhatsApp     | Linked-device WhatsApp daemon with blueski's API shape. Unofficial protocol.     | `brew install looskis/tap/greenski`                                      |
 
 Also here: [kueueski](https://github.com/looskis/kueueski), a script-friendly
 CLI for BullMQ queues. Homebrew formulae live in
