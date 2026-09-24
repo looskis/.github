@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="looskis.svg" alt="Looskis logo" width="96" height="96">
+</p>
+
 # Looskis
 
 **Distribute intelligence.**
